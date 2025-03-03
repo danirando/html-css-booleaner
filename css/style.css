@@ -1,9 +1,10 @@
 body {
+    width: 800px;
     margin: 0;
 }
 
 header {
-    height: 100px;
+    height: 80px;
     background-image: url(../img/pattern.png);
     background-size: 25%;
     background-color: hsl(211.69deg 100% 65.1%);
@@ -11,9 +12,17 @@ header {
 }
 
 .logo {
-    height: 50px;
+    height: 40px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     left: 0;
+}
+
+div {
+    padding: 5px;
+}
+
+h1 {
+    font-size: 30px;
 }
