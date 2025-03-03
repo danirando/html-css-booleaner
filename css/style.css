@@ -5,7 +5,7 @@
 }
 
 body {
-    width: 800px;
+    width: 1080px;
 }
 
 header {
@@ -29,8 +29,26 @@ div {
 }
 
 h1 {
-    font-size: 30px;
-    margin-bottom: 0;
+    font-size: 40px;
 }
 
-p
+.scrittoda {
+    color: hsl(0deg 0% 51.37%);
+}
+
+.autore {
+    color: hsl(194.86deg 46.78% 54.31%);
+}
+
+.data {
+    font-size: small;
+    color: hsl(0deg 0% 51.37%);
+}
+
+.tim {
+    height: 350px;
+}
+
+figure {
+    margin-top: 5px;
+}
