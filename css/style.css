@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 100px;
+    background-image: url(../img/pattern.png);
+    background-size: 25%;
+    background-color: hsl(211.69deg 100% 65.1%);
+    position: relative;
+}
+
+.logo {
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
