@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    width: 1080px;
-}
-
 header {
     height: 80px;
     background-image: url(../img/pattern.png);
@@ -24,9 +20,7 @@ header {
     left: 0;
 }
 
-div {
-    padding: 5px;
-}
+div {}
 
 h1 {
     font-size: 40px;
@@ -108,4 +102,9 @@ thead {
     color: white;
     font-size: large;
     font-weight: bolder;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
 }
